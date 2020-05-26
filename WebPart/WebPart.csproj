@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Context\heuwuvyx.4xy~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsolePart\ConsolePart.csproj" />
+    <ProjectReference Include="..\DataBase\DataBase.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
